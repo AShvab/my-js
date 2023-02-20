@@ -212,14 +212,12 @@ const salaries = {
   
   // console.log(topSalary(salaries));
 
- const a = {};
- const b = {};
-
- const c = {
-  e: "thmth",
-  n: 5,
- }
-
- c[a] = 16;
-
- console.log(c);
+  function sjdj(array1){
+for (let i= 1; i < array1.length; i+=1) {
+  const element = array1[i];
+  console.log(`${i} element: ${array1[i]}`);
+}
+  }
+  const array1 = [1, 2, 3, 4, 5];
+  sjdj(array1);
+  
